@@ -1,0 +1,23 @@
+p {
+	font-size: xx-large;
+}
+
+#p1 {
+	font-family: "Arial";
+}
+
+#p2 {
+	font-family: "Courier";
+}
+
+#p3 {
+	font-family: "Verdana";
+}
+
+#p4 {
+	font-family: "serif";
+}
+
+#p5 {
+	font-family: "cursive";
+}

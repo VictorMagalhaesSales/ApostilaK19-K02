@@ -1,0 +1,14 @@
+p {
+	border: 1px solid black;
+	max-width:  600px;
+	max-height: 250px;
+	min-height: 100px;
+}
+
+#p1 {
+	width: 200px;
+}
+
+#p2 {
+	width: 400px;
+}

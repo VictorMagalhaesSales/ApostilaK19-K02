@@ -1,0 +1,12 @@
+p {
+	width: 400px;
+	border: 1px solid black;
+}
+
+#p1 {
+	line-height: 20px;
+}
+
+#p2 {
+	line-height: 40px;
+}

@@ -1,0 +1,17 @@
+li {
+	border: 2px black solid;
+	width: 400px;
+}
+
+#ul1 {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+#ul2 {
+	list-style-image: url(’http://k19.com.br/figs/k02-logo-small.png’);
+}
+
+ol{
+	list-style-type: upper-roman;
+}

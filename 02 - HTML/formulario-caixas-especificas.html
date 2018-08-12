@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>K19 Treinamentos - Formulários</title>
+	</head>
+
+	<body>
+		<h1>Exemplos de formulário</h1>
+
+		<form method="post" action="parametros.php">
+			<label for="keywords_id">Busca: </label>
+			<input type="search" name="keywords" placeholder="Keywords" id="keywords_id">
+			<br>
+			<label for="idade_id">Idade: </label>
+			<input type="number" name="idade" min="18" max="60" id="idade_id">
+			<br>
+			<label for="curtiu_id">Curtiu: </label>
+			<input type="range" name="curtiu" min="0" max="10" id="curtiu_id">
+			<br>
+			<label for="email_id">Email: </label>
+			<input type="email" name="email" id="email_id" placeholder="Seu email">
+			<br>
+			<label for="telefone_id">Telefone: </label>
+			<input type="tel" name="telefone" id="telefone_id" placeholder="Seu telefone">
+			<br>
+			<label for="site_id">Site: </label>
+			<input type="url" name="site" id="site_id" placeholder="Seu site">
+			<br>
+			<label for="nascimento_id">Nascimento: </label>
+			<input type="date" name="nascimento" id="nascimento_id">
+			<br>
+			<label for="festa_aniversario_id">Festa de Aniversário: </label>
+			<input id="festa_aniversario_id" type="datetime-local" name="festa_aniversario">
+			<br>
+			<label for="proximo_carnaval_mes_id">Mês do próximo Carnaval: </label>
+			<input id="proximo_carnaval_mes_id" type="month" name="proximo_carnaval_mes">
+			<br>
+			<label for="semana_rock_in_rio_id">Semana do Rock in Rio: </label>
+			<input id="semana_rock_in_rio_id" type="week" name="semana_rock_in_rio">
+			<br>
+			<label for="horario_de_entrada_id">Horário de entrada: </label>
+			<input id="horario_de_entrada_id" type="time" name="horario_de_entrada">
+			<br>
+			<label for="senha_id">Senha: </label>
+			<input id="senha_id" type="password" name="senha" placeholder="Sua senha">
+			<br>
+			<label for="mensagem_id">Mensagem: </label>
+			<textarea id="mensagem_id" name="mensagem" rows="5"	cols="50" maxlength="150"></textarea>
+			<br>
+
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>		

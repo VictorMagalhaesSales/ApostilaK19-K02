@@ -1,0 +1,30 @@
+div {
+	margin: 70px;
+	border: 1px solid black;
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+
+#div1 {
+	transform: translate(50px, -20px);
+	-webkit-transform: translate(50px, -20px);
+}
+
+
+#div2 {
+	transform: scale(0.5, 2);
+	-webkit-transform: scale(0.5, 2);
+}
+
+
+#div3 {
+	transform: rotate(15deg);
+	-webkit-transform: rotate(15deg);
+}
+
+
+#div4 {
+	transform: skew(10deg, -45deg);
+	-webkit-transform: skew(10deg, -45deg);
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>K19 Treinamentos - Validação</title>
+	</head>
+
+	<body>
+		<h1>Exemplos de validação</h1>
+
+		<form method="post">
+			<label for="nome_id">Nome: </label>
+			<input type="text" name="nome" id="nome_id" required>
+
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email">
+
+			<label for="site">Site: </label>
+			<input type="url" name="site" id="site">
+
+			<label for="placa">Placa: </label>
+			<input type="text" name="placa" id="placa" pattern="[A-Z]{3} [0-9]{4}" title="As placas são formadas por 3 letras ou 4 números">
+
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>		

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>K19 Treinamentos - Drop down</title>
+	</head>
+
+	<body>
+		<h1>Exemplos de drop down</h1>
+
+		<form action="parametros.php" method="post">
+			<select id="estados_id" name="estados" multiple="multiple">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="PR">Paraná</option>
+				<option value="RN">Rio Grande do Norte</option>
+				<option value="BA">Bahia</option>
+			</select>
+			<select id="estado_id" name="estado" multiple="multiple">
+				<optgroup label="Região Sudeste">
+					<option value="SP">São Paulo</option>
+					<option value="RJ">Rio de Janeiro</option>
+				</optgroup>
+				<optgroup label="Região Sul">
+					<option value="RS">Rio Grande do Sul</option>
+					<option value="PR">Paraná</option>
+				</optgroup>
+				<optgroup label="Região Nordeste">
+					<option value="RN">Rio Grande do Norte</option>
+					<option value="BA">Bahia</option>	
+				</optgroup>
+				
+			</select>
+		</form>
+	</body>
+</html>		

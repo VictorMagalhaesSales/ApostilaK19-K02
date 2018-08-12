@@ -1,0 +1,32 @@
+p {
+	border: 2px black solid;
+}
+
+#p1 {
+	width: 400px;
+	color: blue;
+	text-align: justify;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	text-indent: 20px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	word-spacing: 11px;
+}
+
+#p2 {
+	width: 100px;
+	word-wrap: break-word;
+}
+
+#p3 {
+	width: 400px;
+	white-space: pre-line;
+}
+
+#p4 {
+	width: 100px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px #ff0000;
+}

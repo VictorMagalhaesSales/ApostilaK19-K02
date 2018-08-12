@@ -1,0 +1,12 @@
+table {
+	border: 2px solid black;
+	margin: 10px;
+}
+
+td {
+	border: 2px solid black;
+}
+
+#tabela1 {
+	border-collapse: collapse;
+}

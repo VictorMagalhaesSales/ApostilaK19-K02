@@ -1,0 +1,39 @@
+div{
+	width: 200px;
+	height: 10px;
+	margin: 10px;
+	border: 5px black dashed;
+}
+
+#div1{
+	background-color: yellow;
+}
+
+#div2{
+	background-color: #c1a4cd;
+	background-clip: padding-box;
+}
+
+#div3 {
+	background-image: url("http://k19.com.br/figs/seguro-treinamento.png");
+	background-repeat: no-repeat;
+}
+
+#div4 {
+	background-image: url("http://k19.com.br/figs/seguro-treinamento.png");
+	background-repeat: no-repeat;
+	background-origin: border-box;
+}
+
+#div5 {
+	background-image: url("http://k19.com.br/figs/seguro-treinamento.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+body{
+	background-image: url("http://k19.com.br/figs/seguro-treinamento.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+}

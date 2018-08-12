@@ -1,0 +1,20 @@
+p {
+    width: 400px;
+    border: 1px solid black;
+}
+
+#p1 {
+    white-space: nowrap;
+}
+
+#p2 {
+    white-space: pre;
+}
+
+#p3 {
+    white-space: pre-line;
+}
+
+#p4 {
+    white-space: pre-wrap;
+}

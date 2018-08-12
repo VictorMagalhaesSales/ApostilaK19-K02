@@ -1,0 +1,23 @@
+@media all {
+	p {
+		font-size: 50px;
+	}
+}
+
+@media screen {
+	p {
+		color: red;
+	}
+}
+
+@media print {
+	p {
+		color: blue;
+	}
+}
+
+@media handheld, screen and (max-device-width: 480px){
+	p{ 
+		color: green;
+	}
+}

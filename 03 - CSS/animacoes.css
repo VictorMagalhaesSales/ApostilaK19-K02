@@ -1,0 +1,166 @@
+#img1 {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	z-index: 2;
+	animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	animation-delay: 2s, 3s, 3.5s, 4s;
+	-webkit-animation: animacao1 1s linear, animacao2 0.5s linear, animacao3 500ms linear, animacao4 500ms linear;
+	-webkit-animation-delay: 2s, 3s, 3.5s, 4s;
+}
+
+#img2 {
+	position: absolute;
+	top: 400px;
+	left: 110px;
+	z-index: 1;
+	transform: scale(2.5, 2.5);
+	animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	animation-delay: 2s, 3s, 3.5s, 4s;
+	-webkit-animation: animacao5 1s linear, animacao6 0.5s linear, animacao7 500ms linear, animacao8 500ms linear;
+	-webkit-animation-delay: 2s, 3s, 3.5s, 4s;
+}
+
+@keyframes animacao1{
+	to {
+		top: 310px;
+	}
+}
+
+@keyframes animacao2{
+	from{
+		top: 310px;
+	}
+	to {
+		top: 335px;
+		transform: scale(11.25, 0.75);
+	}
+}
+
+@keyframes animacao3 {
+	from{
+		top: 335px;
+		transform: scale(11.25, 0.75);
+	}
+	to{
+		top: 285px;
+		transform: scale(0.75, 1.25);
+	}
+}
+
+@keyframes animacao4 {
+	from {
+		top: 285px;
+		transform: scale(0.75, 1.25);
+	}
+	to {
+		top: 310px;
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes animacao5 {
+	to {
+		transform: scale(1.5, 1.5);
+	}
+}
+
+@keyframes animacao6 {
+	from {
+		transform: scale(1.5, 1.5);
+	}
+	to {
+		transform: scale(1.75, 1.75);
+	}
+}
+
+@keyframes animacao7 {
+	from {
+		transform: scale(1.75, 1.75);
+	}
+	to {
+		transform: scale(1.25, 1.25);
+	}
+}
+
+@keyframes animacao8 {
+	from {
+		transform: scale(1.25, 1.25);
+	}
+	to {
+		transform: scale(1.5, 1.5);
+	}
+}
+
+/* Webkit: Chrome, Safari */
+
+@-webkit-keyframes animacao1 {
+	to {
+		top: 310px;
+	}
+}
+
+@-webkit-keyframes animacao2 {
+	from {
+		top: 310px;
+	}
+	to {
+		top: 335px;
+		-webkit-transform: scale(1.25, 0.75);
+	}
+}
+
+@-webkit-keyframes animacao3 {
+	from {
+		top: 335px;
+		-webkit-transform: scale(1.25, 0.75);
+	}
+	to {
+		top: 285px;
+		-webkit-transform: scale(0.75, 1.25);
+	}
+}
+
+@-webkit-keyframes animacao4 {
+	from {
+		top: 285px;
+		-webkit-transform: scale(0.75, 1.25);
+	}
+	to {
+		top: 310px;
+		-webkit-transform: scale(1, 1);
+	}
+}
+
+@-webkit-keyframes animacao5 {
+	to {
+		-webkit-transform: scale(1.5, 1.5);
+	}
+}
+
+@-webkit-keyframes animacao6 {
+	from {
+		-webkit-transform: scale(1.5, 1.5);
+	}
+	to {
+		-webkit-transform: scale(1.75, 1.75);
+	}
+}
+
+@-webkit-keyframes animacao7 {
+	from {
+		-webkit-transform: scale(1.75, 1.75);
+	}
+	to {
+		-webkit-transform: scale(1.25, 1.25);
+	}
+}
+
+@-webkit-keyframes animacao8 {
+	from {
+		-webkit-transform: scale(1.25, 1.25);
+	}
+	to {
+		-webkit-transform: scale(1.5, 1.5);
+	}
+}

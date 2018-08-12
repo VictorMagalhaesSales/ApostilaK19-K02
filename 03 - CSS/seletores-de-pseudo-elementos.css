@@ -1,0 +1,17 @@
+p:first-line {
+	background-color: yellow;
+}
+
+p:first-letter {
+	font-size: 50px;
+}
+
+h1:before {
+	content: '~ ';
+	color: red;
+}
+
+h1:after {
+	content: ' ~';
+	color: red;
+}

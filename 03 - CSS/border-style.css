@@ -1,0 +1,22 @@
+div {
+	width: 400px;
+	height: 200px;
+	margin: 10px;
+	border-width: 6px;
+}
+
+#div1 {
+	border-style: dotted;
+}
+
+#div2 {
+	border-style: dashed;
+}
+
+#div3 {
+	border-style: solid;
+}
+
+#div4 {
+	border-style: double;
+}

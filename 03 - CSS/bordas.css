@@ -1,0 +1,67 @@
+div {
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+}
+
+#div1 {
+	border-style: solid;
+	border-width: thin;
+	border-color: red;
+	border-radius: 10px;
+}
+
+#div2 {
+	border-style: dotted;
+	border-color: yellow;
+	border-radius: 10px 30px;
+}
+
+#div3 {
+	border-style: dashed;
+	border-width: 4px;
+	border-color: blue;
+	border-radius: 10px 20px 30px 40px;
+}
+
+#div4 {
+	border-style: double;
+	border-width: 8px;
+	border-color: green;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 40px;
+}
+
+#div5 {
+	border-left-style: solid;
+	border-left-width: thin;
+	border-left-color: red;
+
+	border-top-style: dotted;
+	border-top-color: yellow;
+
+	border-right-style: dashed;
+	border-right-width: 4px;
+	border-right-color: blue;
+
+	border-bottom-style: double;
+	border-bottom-width: 8px;
+	border-bottom-color: green;
+}
+
+table, td{
+	font-size: xx-large;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#tabela1 {
+	border-collapse: collapse;
+	border-spacing: 20px;
+}
+
+#tabela2 {
+	border-spacing: 20px;
+}

@@ -1,0 +1,15 @@
+p {
+	width: 400px;
+}
+
+#p1 {
+	text-decoration: underline;
+}
+
+#p2 {
+	text-decoration: overline;
+}
+
+#p3 {
+	text-decoration: line-through;
+}

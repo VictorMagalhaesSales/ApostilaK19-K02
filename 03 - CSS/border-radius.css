@@ -1,0 +1,22 @@
+div {
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	border: 2px solid black;    
+}
+
+#div1 {
+	border-radius: 20px;
+}
+
+#div2 {
+	border-radius: 20px 60px;
+}
+
+#div3 {
+	border-radius: 20px 60px 100px;
+}
+
+#div4 {
+	border-radius: 20px 60px 100px 140px;
+}

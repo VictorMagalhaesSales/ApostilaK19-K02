@@ -1,0 +1,24 @@
+div {
+	display: inline-block;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+#div1 {	
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+#div2 {
+	margin-bottom: 50px;    
+}
+
+#div3 {
+	margin-left: 50px;
+}
+
+#div4 {
+	margin-left: 50px;
+	margin-bottom: 50px;
+}

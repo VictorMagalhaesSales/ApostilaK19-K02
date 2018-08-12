@@ -1,0 +1,7 @@
+li {
+	border: 1px solid black;
+}
+
+#ul1 {
+	list-style-position: inside;
+}

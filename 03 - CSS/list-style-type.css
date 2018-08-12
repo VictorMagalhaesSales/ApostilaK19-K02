@@ -1,0 +1,23 @@
+#ul1 {
+	list-style-type: disc;
+}
+
+#ul2 {
+	list-style-type: circle;
+}
+
+#ul3 {
+	list-style-type: square;
+}
+
+#ol1 {
+	list-style-type: decimal;
+}
+
+#ol2 {
+	list-style-type: lower-latin;
+}
+
+#ol3 {
+	list-style-type: georgian;
+}

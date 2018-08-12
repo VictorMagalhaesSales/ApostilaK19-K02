@@ -1,0 +1,26 @@
+div {
+	display: inline-block;
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	background-clip: content-box;
+}
+
+#div1 {	
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+#div2 {
+	padding-bottom: 50px;    
+}
+
+#div3 {
+	padding-left: 50px;
+}
+
+#div4 {
+	padding-left: 50px;
+	padding-bottom: 50px;
+}

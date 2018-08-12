@@ -1,0 +1,21 @@
+div {
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	padding: 25px;
+	border: 10px dotted black;
+	background-repeat: no-repeat;
+	background-image: url("http://www.k19.com.br/figs/planeta-small.png");
+}
+
+#div1 {
+	background-origin: border-box;
+}
+
+#div2 {
+	background-origin: padding-box;
+}
+
+#div3 {
+	background-origin: content-box;
+}

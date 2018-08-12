@@ -1,0 +1,95 @@
+:root {
+    font-size: 30px;
+}
+
+#lista1 li:first-child {
+    color: red;
+}
+
+#lista1 li:last-child {
+    color: blue;
+}
+
+#lista2 li:nth-child(2) {
+    color: magenta;
+}
+
+#lista2 li:nth-last-child(2) {
+    color: orange;
+}
+
+p:first-of-type {
+    color: yellow;
+}
+
+p:last-of-type {
+    color: aqua;
+}
+
+p:nth-of-type(2) {
+    color: firebrick;
+}
+
+p:nth-last-of-type(2) {
+    color: lawngreen;
+}
+
+:only-child {
+    border: 4px solid red;
+}
+
+h2:only-of-type {
+    color: plum;
+}
+
+:empty {
+    height: 20px;
+    border: 4px dashed black;
+}
+
+a:link {
+    color: springgreen;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #ccc;
+}
+
+a:active {
+    color: orange;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
+input:focus {
+    background-color: red;
+    color: white;
+}
+
+:target {
+    border: 4px solid magenta;
+    color: purple;
+}
+
+:lang(en) {
+    color: red;
+}
+
+:enabled {
+    outline: 4px solid red;
+}
+
+:disabled {
+    outline: 4px solid blue;
+}
+
+:checked {
+    outline: 4px solid green;
+}
+
+:not(ul) > li {
+    padding-left: 100px;
+}

@@ -1,0 +1,18 @@
+div {
+	width: 400px;
+	height: 100px;
+	margin: 10px;
+	outline-style: solid;
+}
+
+#div1 {
+	outline-color: red;
+}
+
+#div2 {
+	outline-color: #00ff00;
+}
+
+#div3 {
+	outline-color: rgb(0, 0, 255);
+}

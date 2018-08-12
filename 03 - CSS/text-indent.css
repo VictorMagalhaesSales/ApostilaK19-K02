@@ -1,0 +1,11 @@
+p {
+	width: 400px;
+}
+
+#p1 {
+	text-indent: 0px;
+}
+
+#p2 {
+	text-indent: 30px;
+}

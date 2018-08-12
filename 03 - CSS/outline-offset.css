@@ -1,0 +1,15 @@
+div {
+	width: 400px;
+	height: 50px;
+	margin: 50px;
+	outline: 5px solid red;
+	border: 5px solid black;
+}
+
+#div1 {
+	outline-offset: 20px;
+}
+
+#div2 {
+	outline-offset: -20px;
+}

@@ -1,0 +1,23 @@
+p {
+	font-size: xx-large;
+}
+
+#p1 {
+	text-shadow: 3px 3px #ff0000;
+}
+
+#p2 {
+	text-shadow: -3px -3px #ff0000;
+}
+
+#p3 {
+	text-shadow: 0px 0px 10px #ff0000;
+}
+
+#p4 {
+	text-shadow: 10px 10px 10px #ff0000;
+}
+
+#p5 {
+	text-shadow: 5px 5px 5px #ff0000, -5px -5px 5px #0000ff;
+}

@@ -1,0 +1,25 @@
+div {
+	height: 300px;
+	width: 400px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+#div1 {
+	background-image: url("http://www.k19.com.br/figs/planeta-small.png");
+}
+
+#div2 {
+	background-image: url("http://www.k19.com.br/figs/planeta-small.png");
+	background-repeat: no-repeat; 
+}
+
+#div3 {
+	background-image: url("http://www.k19.com.br/figs/planeta-small.png");
+	background-repeat: repeat-x;
+}
+
+#div4 {
+	background-image: url("http://www.k19.com.br/figs/planeta-small.png");
+	background-repeat: repeat-y;
+}

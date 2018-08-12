@@ -1,0 +1,18 @@
+div {
+	width: 400px;
+	height: 100px;
+	margin: 20px;
+	outline-style: solid;
+}
+
+#div1 {
+	outline-width: thin;
+}
+
+#div2 {
+	outline-width: thick;
+}
+
+#div3 {
+	outline-width: 2px;
+}
