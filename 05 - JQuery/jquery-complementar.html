@@ -1,0 +1,211 @@
+
+<!DOCTYPE  html>
+<html  lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>K19 - jQuery </title>
+        <script src="http:/ code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="jquery-complementar..js"></script>
+         <style  type="text/css">
+            #header {
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                padding: 10px;
+                position: fixed;
+                background -color: white;
+                border -bottom: 10px  black  solid;
+            }
+             #saida {
+                margin: 0px auto;
+                width: 800px;
+                height: 200px;
+                overflow: auto;
+            }
+
+            #content {
+                width: 800px;
+                margin: 250px auto 0px;
+            }
+
+            pre {
+                padding: 10px;
+                border -radius: 15px;
+                background -color: #eeeeee;
+            }
+
+            #div1 , #div2 {
+                background -color: yellow;
+                width: 200px;
+                height: 200px;
+            }
+
+            #div3 {
+                background -color: blue;
+                width: 50px;
+                height: 50px;
+                margin: auto;
+            }
+      </style >
+
+    </head>
+    <body id="body">
+        <div id="body">
+            <div id="saida"</div>
+        </div>
+        <div id="content">
+
+        <h1>ready</h1>  
+        <pre id="ready-on">
+            $(documnet).ready(function(){
+                var saida = $("#saida");
+                saida.append("evento ready disparado&lt;br&gt;")
+            });
+        </pre>
+
+        <h1>resize</h1>
+        <button id="resize">on</button> 
+
+         <pre>
+            $(window).resize(function () {
+                var  largura = $(window).width ();
+                var  altura = $(window).height ();
+                saida.append("resize: (" + largura + ", " + altura + ")");
+                saida.append("&lt;br&gt;");
+                saida.scrollTop(saida.prop("scrollHeight"));
+            });
+
+            
+            $(window).off("resize");
+        </pre>
+         <h1>scroll</h1>
+         <button id="scroll">ON</button>
+         <pre>
+            $(window).scroll(function({
+                var x = $(window).scrollLeft ();
+                var y = $(window).scrollTop();
+                saida.append("scroll: (" + x + ", " + y + ")");
+                saida.append("&lt;br&gt;");
+                saida.scrollTop(saida.prop("scrollHeight"));
+            }))
+         </pre>
+        $(window).off("scroll");
+        </pre>	
+
+        <h1>focus, focusin, blur e focusout</h1>
+        <button id="foco">ON</button>
+        <pre>
+        
+        $("*").on("focus focusin blur focusout",
+        function(event) {
+            var tag = this.tagName;
+            var id = this.id;
+            var type = event.type;		
+
+            saida.append(type + "(" + tag + ", #" + id + ")");
+            saida.append("&lt;br&gt;");
+            saida.scrollTop(saida.prop("scrollHeight"));
+        }
+        );
+
+        
+        $("*").off("focus focusin blur focusout");
+        </pre>	
+        <label>Teste:</label>
+        <input id="input1">
+
+        <h1>select</h1>
+        <button id="select">ON</button>
+        <pre>
+        
+        $("#input2").select(function() {
+        saida.append("select: (" + window.getSelection() + ")");
+        saida.append("&lt;br&gt;");
+        saida.scrollTop(saida.prop("scrollHeight"));
+        });
+
+        
+        $("#input2").off("select");
+        </pre>	
+        <label>Teste:</label>
+        <input id="input2">	
+
+        <h1>change</h1>
+        <button id="change">ON</button>
+        <pre>
+        
+        $("input3").change(function() {
+        saida.append("change: (" + $(this).val() + ")");
+        saida.append("&lt;br&gt;");
+        saida.scrollTop(saida.prop("scrollHeight"));
+        });
+
+        
+        $("#input3").off("change");
+        </pre>	
+        <label>Teste:</label>
+        <input id="input3">
+
+        <h1>keydown, keypress e keyup</h1>
+        <button id="key">ON</button>
+        <pre>
+        
+        $("#input4").on("keydown keypress keyup",
+        function(event) {
+            var type = event.type;	
+
+            saida.append(type + ": (" + event.which + ")");
+            saida.append("&lt;br&gt;");
+            saida.scrollTop(saida.prop("scrollHeight"));
+        }
+        );
+
+        
+        $("#input4").off("keydown keypress keyup");
+        </pre>	
+        <label>Teste:</label>
+        <input id="input4">
+
+        <h1>click, dblclick, mousedown, mouseup, mouseenter, 
+            mouseleave, hover, mouseover e mouseout</h1>
+        <button id="mouse">ON</button>
+        <pre>
+        
+        $("#div1").on("click dblclick mousedown mouseup " +
+        "mouseenter mouseleave hover mouseover mouseout",
+        function(event) {
+            var type = event.type;	
+
+            saida.append(type + ": (" + event.which + ")");
+            saida.append("&lt;br&gt;");
+            saida.scrollTop(saida.prop("scrollHeight"));
+        }
+        );
+
+        
+        $("#div1").off("click dblclick mousedown mouseup " + 
+        "mouseenter mouseleave hover mouseover mouseout");
+        </pre>	
+        <div id="div1"><div id="div3"></div></div>	
+
+        <h1>mousemove</h1>
+        <button id="mousemove">ON</button>
+        <pre>
+        
+        $("#div2").mousemove(function(event) {
+            var x = event.pageX;
+            var y = event.pageY;
+            var type = event.type;
+
+            saida.append(type + ": (" + x + ", " + y + ")");
+            saida.append("&lt;br&gt;");
+            saida.scrollTop(saida.prop("scrollHeight"));
+        });
+
+       
+        $("#div2").off("mousemove");
+        </pre>	
+        <div id="div2"></div>
+        </div>   
+    </body>
+</html>    
